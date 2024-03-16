@@ -1,6 +1,8 @@
 import React from "react";
 import grid from "../assets/grid.png";
 import robot from "../assets/robotic-hand.png";
+import { easeInOut, motion } from "framer-motion";
+
 const Events = () => {
   return (
     <div className="bg-richBlue-100 relative py-4 h-[12.3rem] md:h-[26rem] ">
@@ -38,7 +40,14 @@ const Events = () => {
             </li>
           </ul>
         </div>
-        <img
+        <motion.img
+          initial={{ opacity: 0, translateY: 50 }}
+          whileInView={{ opacity: 1, translateY: 0 }}
+          transition={{
+            duration: 1.5,
+            delay: 0.3,
+            ease: easeInOut,
+          }}
           src={robot}
           alt="robot's hand"
           className="w-32 md:w-fit absolute top-12"
