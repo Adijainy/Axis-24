@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             {/* follow us div with socials */}
             <div className="font-saira">
-              <h3 className="text-2xl font-medium mt-12">
+              <h3 className="text-2xl font-medium mt-14">
                 <span className="text-richPink-100">Follow</span> us on
               </h3>
               <ul className=" text-lg flex gap-3">
@@ -40,8 +40,8 @@ const Footer = () => {
             </div>
           </div>
           {/* ai bain img */}
-          <div className="ml-20">
-            <img src={aibrain} alt="ai-brain" className="w-[93%]" />
+          <div className="ml-[4.5rem]">
+            <img src={aibrain} alt="ai-brain" className="w-full" />
           </div>
         </div>
       </div>
