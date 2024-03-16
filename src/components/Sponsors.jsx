@@ -3,9 +3,9 @@ import sponsors from "../assets/sponsorsimg.png";
 
 const Sponsors = () => {
   return (
-    <div className="bg-richViolet-800 text-white py-10 px-56">
+    <div className="bg-richViolet-800 text-white md:py-10 md:px-56">
       <div className="bg-richViolet-600 border-2 border-richViolet-100 p-8 text-center flex flex-col items-center">
-        <h2 className="text-5xl font-orbitron font-bold">
+        <h2 className="text-4xl md:text-5xl font-orbitron font-bold">
           OUR<span className="text-richPink-100"> SPONSORS</span>
         </h2>
         {/* sponsors imgs */}
